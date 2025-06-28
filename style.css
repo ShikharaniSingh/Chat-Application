@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    overflow: hidden;
+}
+
+.container {
+    width: 640px;
+    background-color: #17202a;
+    border-radius: 10px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #212f3d;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem;
+    color: #fff;
+    width: 100%;
+}
+
+.card-body {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+
+.card-body::-webkit-scrollbar {
+    width: 5px;
+}
+
+.card-body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+}
+
+.card-body::-webkit-scrollbar-thumb {
+    background: #2c3e50;
+    border-radius: 5px;
+}
+
+.chat-bot,
+.user {
+    display: flex;
+    align-items: flex-start;
+}
+
+.user {
+    justify-content: flex-end;
+}
+
+.chat-bot p,
+.user p {
+    padding: 0.8rem;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    max-width: 75%;
+}
+
+.chat-bot p {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.user p {
+    background-color: #28b463;
+    color: #fff;
+}
+
+.chat .user-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    border: 2px solid #212f3d;
+}
+
+.user-icon .fa-robot {
+    color: #3498db;
+}
+
+.user-icon .fa-user {
+    color: #28b463;
+}
+
+.card-footer {
+    padding: 1rem;
+    background: #212f3d;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-footer textarea {
+    resize: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    flex: 1;
+    padding: 1rem;
+    background-color: #212f3d;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    height: 60px;
+    line-height: 1.4;
+}
+
+.sending-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+}
+
+.sending-icon .fa-paper-plane {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
