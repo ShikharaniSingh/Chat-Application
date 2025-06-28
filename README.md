@@ -26,9 +26,6 @@ A modern real-time chat application built with **Node.js**, **Socket.IO**, **HTM
 
 > Screenshot goes here![Chat App using Socket IO - Google Chrome 28-06-2025 12_48_18](https://github.com/user-attachments/assets/9eeea1a6-1a06-4179-b0a5-4fa406f4d458)
 
-
-> *(Add a screenshot showing chat interface with multiple users)*
-
 ---
 
 ## 📂 Folder Structure
