@@ -1,26 +1,33 @@
-# Chat-Application
-💬 Real-Time Chat Application
-A modern real-time chat application built with Node.js, Socket.IO, HTML, CSS, and Vanilla JavaScript. This app supports multi-user communication in a single chat room with a smooth UI.
+# 💬 Real-Time Chat Application
 
-🚀 Features
-👥 Multi-user real-time communication
+A modern real-time chat application built with **Node.js**, **Socket.IO**, **HTML**, **CSS**, and **JavaScript**. This app supports multi-user communication in a chatroom with a responsive interface.
 
-📥 User joins and leaves notifications
+---
 
-🗨️ Chat bubbles styled differently for user and bot
+## 🚀 Features
 
-🎨 Fully responsive and scrollable UI
+- 👥 Multi-user real-time chat
+- 📢 System messages on user join/leave
+- ✨ Clean and responsive UI
+- 🔄 Auto scrolls to the latest message
+- ⚡ Powered by Socket.IO (WebSocket)
 
-⚡ Powered by WebSockets (Socket.IO)
+---
 
-📸 Screenshots
+## 🧰 Tech Stack
 
-(Add a screenshot here after deploying or running it locally)
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express
+- **Realtime Communication**: Socket.IO
 
-🧱 Technologies Used
-Frontend: HTML, CSS, JavaScript (Vanilla)
+---
 
-Backend: Node.js, Express.js
+## 🖼️ Preview
 
-WebSockets: Socket.IO
+> Screenshot goes here  
+> *(Add a screenshot showing chat interface with multiple users)*
+
+---
+
+## 📂 Folder Structure
 
